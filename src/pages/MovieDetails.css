@@ -1,0 +1,27 @@
+.movie-details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.movieImageDetail {
+    border-radius: 20px;
+    padding-top: 15px;
+
+}
+.movieDetails {
+    width: 70%;
+    padding: 50px;
+    margin: 15px;
+
+
+}
+.movieTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.movieImageDetail:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
